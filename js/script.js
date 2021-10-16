@@ -1,6 +1,6 @@
-let numF = +prompt ('Введите первое число');
-let numS = +prompt ('Введите второе число');
-let operant = prompt ('Введиите операцию: +, -, *, /');
+const numF = +prompt ('Введите первое число');
+const numS = +prompt ('Введите второе число');
+const operant = prompt ('Введиите операцию: +, -, *, /');
 if (operant  === '+') {
 alert (`${numF} + ${numS}=${numF + numS}`);
 }
